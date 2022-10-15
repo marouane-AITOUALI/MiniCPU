@@ -5,8 +5,7 @@
 
 
 
-#define NBITS 8  // attention, votre programme doit pouvoir être adapté à d'autres tailles juste en modifiant la valeur de cette constante
-// en ayant toujours NBITS < 32
+#define NBITS 8  
 
 /////////////////////////////////////////////////////////
 // définition de types
@@ -408,8 +407,7 @@ void mul(CPU cpu,int* B) {
 int main(int argc,char *argv[]) {
   
   /*
-    Ce programme est fourni à titre d'exemple pour permettre de tester simplement vos fonctions.
-    Il vous est bien entendu possible de le modifier/compléter, ou encore d'écrire vos propres fonctions de test.
+    Ce programme est fourni à titre d'exemple pour permettre de tester simplement les fonctions.
    */
   
   int* operand;
