@@ -1,25 +1,3 @@
-/*
- * -------------------------- TP du module Archi -------------------------
- *
- * ATTENTION : un outil de détection de plagiat logiciel sera utilisé lors de la correction, vous avez donc tout intérêt à effectuer un travail PERSONNEL
- *
- * Un mot/registre de NBITS bits (par défaut NBITS=16) est représenté par un tableau d'entiers égaux à 0 ou 1.
- * Une ALU est représentée par une structure ALU, avec registre accumulateur et registre d'état.
- * Un CPU (très très simplifié) est représenté par une ALU et quelques registres nécessaires pour stocker les résultats intermédiaires.
- *
- * Certaines fonctions vous sont fournies, d'autres sont à implanter ou à compléter, de préférence dans l'ordre où elles sont indiquées.
- * Il vous est fortement conseillé de lire attentivement l'ensemble des commentaires.
- *
- * Parmi les opérations arithmétiques et logiques, seules 4 opérations de base sont directement fournies par l'ALU, les autres doivent être décrites comme des algorithmes
- * travaillant à l'aide des opérateurs de base de l'ALU simplifiée et pouvant utiliser les registres du CPU.
- *
- * La fonction main() vous permet de tester au fur et à mesure les fonctions que vous implantez.
- *
- * ----------------------------------------------------------------------------------------------
- *
- * author: B. Girau
- * version: 2021-22
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
